@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/hp/kicad/timer/timer2/timer.sch</source>
+    <date>Чт 08 ноя 2018 20:20:45</date>
+    <tool>Eeschema 5.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>timer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>STM8S003F3P</value>
+      <footprint>Housings_SSOP:SSOP-20_4.4x6.5mm_Pitch0.65mm</footprint>
+      <libsource lib="timer-rescue" part="STM8S003F3P" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A70280</tstamp>
+    </comp>
+    <comp ref="AFF1">
+      <value>CA56-12</value>
+      <footprint>myowndevice:indicator_3cif</footprint>
+      <libsource lib="timer-rescue" part="CA56-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A704DC</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A707E8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A708AB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A708E2</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>kn1</value>
+      <footprint>Buttons_Switches_ThroughHole:SW_PUSH_6mm_h8mm</footprint>
+      <libsource lib="timer-rescue" part="CONN_01X02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58A71F27</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PISK</value>
+      <footprint>myowndevice:hc0903a</footprint>
+      <libsource lib="timer-rescue" part="CONN_01X02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD63B1</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NMOS_GSD</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="timer-rescue" part="Q_NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD6661</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>kn1</value>
+      <footprint>Buttons_Switches_THT:SW_Tactile_SKHH_Angled</footprint>
+      <libsource lib="timer-rescue" part="CONN_01X02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD6D08</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>bat</value>
+      <footprint>Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm</footprint>
+      <libsource lib="timer-rescue" part="CONN_01X02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD724B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TP4056</value>
+      <footprint>Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm</footprint>
+      <libsource lib="timer-rescue" part="TP4056-RESCUE-timer" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD7633</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>USB_OTG</value>
+      <footprint>myowndevice:usb5s</footprint>
+      <libsource lib="timer-rescue" part="USB_OTG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD7914</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>30k (40ma)</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD8DE1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LEDs:LED_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD9104</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD9215</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD95CA</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uf</value>
+      <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59BD990C</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59FE23C4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01</value>
+      <footprint>myowndevice:1pin_sq</footprint>
+      <libsource lib="timer-rescue" part="Conn_01x01" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A361EF3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4EDE58</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4EDF81</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>200</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A4EE001</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A550050</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML6244TRPBF</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="timer-rescue" part="Q_NMOS_GSD" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55FD04</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>max809</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="timer-rescue" part="Conn_01x03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A55FFFD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A57B7DD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="timer-rescue" part="R_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A659257</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="timer-rescue" part="CA56-12">
+      <footprints>
+        <fp>Cx56-12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">AFF</field>
+        <field name="Value">CA56-12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="e" type="input"/>
+        <pin num="2" name="d" type="input"/>
+        <pin num="3" name="DP" type="input"/>
+        <pin num="4" name="c" type="input"/>
+        <pin num="5" name="g" type="input"/>
+        <pin num="6" name="CA4" type="input"/>
+        <pin num="7" name="b" type="input"/>
+        <pin num="8" name="CA3" type="input"/>
+        <pin num="9" name="CA2" type="input"/>
+        <pin num="10" name="f" type="input"/>
+        <pin num="11" name="a" type="input"/>
+        <pin num="12" name="CA1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="Conn_01x01">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="Conn_01x03">
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="Q_NMOS_GSD">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="R_Small">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="STM8S003F3P">
+      <footprints>
+        <fp>TSSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM8S003F3P</field>
+        <field name="Footprint">Housings_SSOP:TSSOP-20_4.4x6.5mm_Pitch0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD4/TIM2_CH1/BEEP/UART1_CK" type="BiDi"/>
+        <pin num="2" name="PD5/AIN5/UART1_TX" type="BiDi"/>
+        <pin num="3" name="PD6/AIN6/UART1_RX" type="BiDi"/>
+        <pin num="4" name="NRST" type="input"/>
+        <pin num="5" name="OSCIN/PA1" type="BiDi"/>
+        <pin num="6" name="OSCOUT/PA2" type="BiDi"/>
+        <pin num="7" name="VSS" type="power_out"/>
+        <pin num="8" name="Vcap" type="passive"/>
+        <pin num="9" name="VDD" type="power_in"/>
+        <pin num="10" name="[SPI_NSS]TIM2_CH3/PA3" type="BiDi"/>
+        <pin num="11" name="[TIM1_BKIN]I2C_SDA/PB5" type="BiDi"/>
+        <pin num="12" name="[ADC_ETR]I2C_SCL/PB4" type="BiDi"/>
+        <pin num="13" name="[TIM1_CH1N]TIM1_CH3/PC3" type="BiDi"/>
+        <pin num="14" name="[TIM1_CH2N]AIN2/TIM1_CH4/PC4" type="BiDi"/>
+        <pin num="15" name="[TIM2_CH1]SPI_SCK/PC5" type="BiDi"/>
+        <pin num="16" name="[TIM1_CH1]SPI_MOSI/PC6" type="BiDi"/>
+        <pin num="17" name="[TIM1_CH2]SPI_MISO/PC7" type="BiDi"/>
+        <pin num="18" name="PD1/SWIM" type="BiDi"/>
+        <pin num="19" name="PD2/AIN3[TIM2_CH3]" type="BiDi"/>
+        <pin num="20" name="PD3/AIN4/TIM2_CH2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="TP4056-RESCUE-timer">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056-RESCUE-timer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="BAT" type="power_out"/>
+        <pin num="6" name="STBY" type="output"/>
+        <pin num="7" name="CHRG" type="output"/>
+        <pin num="8" name="CE" type="input"/>
+        <pin num="9" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="timer-rescue" part="USB_OTG">
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_OTG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="timer-rescue">
+      <uri>/home/hp/kicad/timer/timer2/timer-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/pisk">
+      <node ref="IC1" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="2" name="Net-(AFF1-Pad8)">
+      <node ref="R4" pin="2"/>
+      <node ref="AFF1" pin="8"/>
+    </net>
+    <net code="3" name="Net-(AFF1-Pad9)">
+      <node ref="R3" pin="2"/>
+      <node ref="AFF1" pin="9"/>
+    </net>
+    <net code="4" name="Net-(AFF1-Pad12)">
+      <node ref="AFF1" pin="12"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="5" name="/dp">
+      <node ref="IC1" pin="17"/>
+      <node ref="AFF1" pin="3"/>
+    </net>
+    <net code="6" name="/g">
+      <node ref="IC1" pin="15"/>
+      <node ref="AFF1" pin="5"/>
+    </net>
+    <net code="7" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="8"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="9" name="/f">
+      <node ref="IC1" pin="14"/>
+      <node ref="AFF1" pin="10"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="Q4" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="6"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J2" pin="5"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J4-Pad1)">
+      <node ref="Q1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J4-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="14" name="VDD">
+      <node ref="J4" pin="3"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="15" name="/kn2">
+      <node ref="R5" pin="1"/>
+      <node ref="IC1" pin="11"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="16" name="/c3">
+      <node ref="R4" pin="1"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(R11-Pad2)">
+      <node ref="U1" pin="7"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="19" name="/prg">
+      <node ref="J3" pin="1"/>
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="20" name="/a">
+      <node ref="IC1" pin="12"/>
+      <node ref="AFF1" pin="11"/>
+    </net>
+    <net code="21" name="/b">
+      <node ref="AFF1" pin="7"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="22" name="/c">
+      <node ref="IC1" pin="16"/>
+      <node ref="AFF1" pin="4"/>
+    </net>
+    <net code="23" name="/d">
+      <node ref="AFF1" pin="2"/>
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="24" name="/e">
+      <node ref="IC1" pin="19"/>
+      <node ref="AFF1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="27" name="/c2">
+      <node ref="IC1" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="28" name="/c1">
+      <node ref="R1" pin="1"/>
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="29" name="/kn">
+      <node ref="P3" pin="2"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="30" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="31" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="32" name="Net-(AFF1-Pad6)">
+      <node ref="AFF1" pin="6"/>
+    </net>
+    <net code="33" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="34" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+  </nets>
+</export>
